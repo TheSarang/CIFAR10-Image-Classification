@@ -73,6 +73,7 @@ classifier.add(Dropout(0.5))
 classifier.add(Dense(units=10))
 classifier.add(Activation('softmax'))
 
+#Compiling model
 classifier.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 datagen = ImageDataGenerator(
@@ -116,4 +117,3 @@ classifier.save('Object_classification_model.h5')
 scores = classifier.evaluate(x_test, y_test, verbose=1)
 print('Test loss:', scores[0])
 print('Test accuracy:', scores[1])
-
