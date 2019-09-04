@@ -12,6 +12,7 @@ from keras.utils import to_categorical
 import warnings
 warnings.filterwarnings('ignore')
 
+#loading data
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 
 #priting features shape
