@@ -7,7 +7,7 @@ CIFAR-10  is an established computer-vision dataset used for object recognition.
 ## The label classes in the dataset are:
 
 1. airplane <br> 
-2. automobile<br> 
+2. automobile <br> 
 3. bird <br> 
 4. cat <br> 
 5. deer <br> 
