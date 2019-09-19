@@ -46,7 +46,7 @@ y_test = y_test.astype('float32')
 #building a model
 classifier = Sequential()
 
-#Convolution Layers
+#Convolution Layers with regularization
 classifier.add(Convolution2D(32, (3,3), input_shape=(32, 32, 3)))
 classifier.add(Activation('relu'))
 classifier.add(BatchNormalization())
