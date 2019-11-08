@@ -12,7 +12,7 @@ CIFAR-10  is an established computer-vision dataset used for object recognition.
 4. cat <br> 
 5. deer <br> 
 6. dog <br> 
-7. frog <br> 
+7. frog <br>  
 8. horse <br> 
 9. ship <br> 
 10. truck <br> 
